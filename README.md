@@ -1,7 +1,7 @@
 # UART-using-Verilog
 
-**This repository contains a complete UART communication system implemented in Verilog for FPGA platforms. It includes:
-**
+**This repository contains a complete UART communication system implemented in Verilog for FPGA platforms. It includes:**
+
 - **UART_RX**: Receives 8-bit serial data with start and stop bits (no parity).
 - **UART_TX**: Transmits 8-bit serial data with one start and one stop bit.
 - **Top_Loop**: Integrates both RX and TX modules to enable UART loopback. The received byte is displayed on two 7-segment displays (hex digits) and echoed back via UART.
